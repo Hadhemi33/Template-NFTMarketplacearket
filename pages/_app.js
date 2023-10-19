@@ -6,8 +6,7 @@ import { Footer } from "@/components/componentIndex";
 const App = ({ Component, pageProps }) =>
 <div>
     <NavBar/>
-    <Component {...pageProps} />
-    
+      {/*<Component {...pageProps} />*/}
 </div>
 
 export default App;
