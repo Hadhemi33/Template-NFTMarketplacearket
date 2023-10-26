@@ -1,14 +1,14 @@
-import "@/styles/globals.css";
+import "../styles/globals.css";
 
+//INTRNAL IMPORT
+import { NavBar, Footer } from "../components/componentIndex";
 
-import NavBar from "@/components/NavBar/NavBar";
-import { Footer } from "@/components/componentIndex";
+const MyApp = ({ Component, pageProps }) => (
+  <div>
+    <NavBar />
+    <Component {...pageProps} />
+    <Footer />
+  </div>
+);
 
-const App = ({ Component, pageProps }) =>
-<div>
-    <NavBar/>
-      {/*<Component {...pageProps} />*/}
-    <Footer /> 
-</div>
-
-export default App;
+export default MyApp;
