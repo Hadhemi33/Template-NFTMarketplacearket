@@ -9,7 +9,8 @@ import {
   Subscribe,
   Title,
   Category,
-  Filter
+  Filter,
+  AudioLive,
 } from "../components/componentIndex";
 
 const Home = () => {
@@ -18,6 +19,12 @@ const Home = () => {
       <HeroSection />
       <Service />
       <BigNFTSlider />
+      
+      <Title
+        heading="Audio Collection"
+        paragraph="Discover the most outstanding NFTs in all topics of life."
+      />
+      <AudioLive />
       <Title 
         heading="Featured NFT" 
         paragraph="Discover the most outstanding NFTs in all topics of life"

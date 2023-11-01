@@ -8,6 +8,9 @@ import Subscribe from './Subscribe/Subscribe'
 import Title from './Title/Title'
 import Category from './Category/Category'
 import Filter from './Filter/Filter'
+import AudioLive from './AudioLive/AudioLive'
+
+
 
 export { 
     Button, 
@@ -19,5 +22,6 @@ export {
     Subscribe,
     Title,
     Category,
-    Filter
+    Filter,
+    AudioLive,
 };
