@@ -33,7 +33,7 @@ const AudioCardSmall = () => {
           <div className={Style.audioPlayer_box_info_box}>
             
             <div className={Style.audioPlayer_box_info_box_price}>
-              <small>Price</small>
+              <h5>Price</h5>
               <p>1.00 ETH</p>
             </div>
           </div>

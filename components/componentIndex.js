@@ -8,8 +8,12 @@ import Subscribe from './Subscribe/Subscribe'
 import Title from './Title/Title'
 import Category from './Category/Category'
 import Filter from './Filter/Filter'
-import AudioLive from './AudioLive/AudioLive'
 
+import AudioLive from './AudioLive/AudioLive'
+import LikeProfile from "./LikeProfile/LikeProfile";
+
+
+import NFTCard from './NFTCard/NFTCard'
 
 
 export { 
@@ -24,4 +28,8 @@ export {
     Category,
     Filter,
     AudioLive,
+    NFTCard,
+    LikeProfile,
+
+
 };

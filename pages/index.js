@@ -2,15 +2,17 @@ import React from "react";
 
 //INTERNAL IMPORT
 import Style from "../styles/index.module.css";
-import { 
-  HeroSection, 
-  Service, 
-  BigNFTSlider, 
+import {
+  HeroSection,
+  Service,
+  BigNFTSlider,
   Subscribe,
   Title,
   Category,
   Filter,
+
   AudioLive,
+  NFTCard,
 } from "../components/componentIndex";
 
 const Home = () => {
@@ -19,6 +21,7 @@ const Home = () => {
       <HeroSection />
       <Service />
       <BigNFTSlider />
+
       
       <Title
         heading="Audio Collection"
@@ -27,15 +30,19 @@ const Home = () => {
       <AudioLive />
       <Title 
         heading="Featured NFT" 
+
+ 
         paragraph="Discover the most outstanding NFTs in all topics of life"
       />
       <Filter />
-      <Title 
-        heading="Browse by category" 
+      <NFTCard />
+      <Title
+        heading="Browse by category"
         paragraph="Explore the NFTs in the most featured categories"
       />
       <Category />
       <Subscribe />
+
     </div>
   );
 };
