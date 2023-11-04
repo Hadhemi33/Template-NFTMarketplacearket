@@ -121,6 +121,10 @@
     font-size: 14px;
     background-color: var(--main-bg-color);
     color: var(--icons-color);
+
+    
+    max-width: 100%;
+    overflow-x: hidden;
   }
   
   a {
