@@ -22,16 +22,21 @@ const Home = () => {
       <Service />
       <BigNFTSlider />
 
+
       
       <Title
         heading="Audio Collection"
         paragraph="Discover the most outstanding NFTs in all topics of life."
       />
       <AudioLive />
+     
+      <Title 
+        heading="New Collection" 
+        paragraph="Discover the most outstanding NFTs in all topics of life"
+      />  
+      <Collection />
       <Title 
         heading="Featured NFT" 
-
- 
         paragraph="Discover the most outstanding NFTs in all topics of life"
       />
       <Filter />

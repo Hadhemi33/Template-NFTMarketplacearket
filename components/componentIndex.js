@@ -14,6 +14,7 @@ import LikeProfile from "./LikeProfile/LikeProfile";
 
 
 import NFTCard from './NFTCard/NFTCard'
+import Collection from './Collection/Collection'
 
 
 export { 
@@ -30,6 +31,7 @@ export {
     AudioLive,
     NFTCard,
     LikeProfile,
-
+    NFTCard,
+    Collection
 
 };
