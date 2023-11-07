@@ -16,6 +16,7 @@ import {
   AudioLive,
   NFTCard,
   Slider,
+  Brand,
 } from "../components/componentIndex";
 
 const Home = () => {
@@ -52,6 +53,8 @@ const Home = () => {
       />
       <Category />
       <Subscribe />
+      <Brand/>
+
 
     </div>
   );

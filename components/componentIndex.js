@@ -16,7 +16,7 @@ import LikeProfile from "./LikeProfile/LikeProfile";
 import NFTCard from './NFTCard/NFTCard'
 import Collection from './Collection/Collection';
 import Slider from "./Slider/Slider";
-
+import Brand from "./Brand/Brand";
 
 
 export { 
@@ -35,6 +35,7 @@ export {
     LikeProfile,
 
     Collection,
-    Slider
+    Slider,
+    Brand,
 
 };
