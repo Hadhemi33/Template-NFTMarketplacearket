@@ -6,15 +6,11 @@
 
 .Form_box_input{
     margin-top: 2rem;
-    margin-bottom: 20px;
-
 }
 
 .Form_box_input label{
     display: block;
     width: 100%;
-    margin-bottom: 10px;
-
     margin-left: 1rem;
     font-weight: 700;
     font-size: 1.3rem;
