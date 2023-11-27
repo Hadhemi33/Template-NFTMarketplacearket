@@ -19,6 +19,7 @@ import Slider from "./Slider/Slider";
 import Brand from "./Brand/Brand";
 
 
+
 export { 
     Button, 
     Footer, 
@@ -37,5 +38,6 @@ export {
     Collection,
     Slider,
     Brand,
+    
 
 };

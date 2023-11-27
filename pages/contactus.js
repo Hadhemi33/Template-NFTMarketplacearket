@@ -11,7 +11,7 @@ import { HiOutlineMail } from "react-icons/hi";
 //INTERNAL IMPORT
 import Style from "../styles/contactus.module.css";
 // import formStyle from "../AccountPage/Form/Form.module.css";
-import { Button } from "../components/componentIndex";
+import { Button } from "../components/componentsIndex";
 
 const contactus = () => {
   return (

@@ -1,4 +1,5 @@
 import React from "react";
+
 // INTERNAL IMPORT
 
 
@@ -17,7 +18,8 @@ import {
   NFTCard,
   Slider,
   Brand,
-} from "../components/componentIndex";
+  
+} from "../components/componentsIndex";
 
 const Home = () => {
   
@@ -54,6 +56,7 @@ const Home = () => {
       <Category />
       <Subscribe />
       <Brand/>
+      
 
 
     </div>

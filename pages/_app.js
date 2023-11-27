@@ -2,7 +2,7 @@ import "../styles/globals.css";
 
 
 //INTRNAL IMPORT
-import { NavBar, Footer } from "../components/componentIndex";
+import { NavBar, Footer } from "../components/componentsIndex";
 
 
 const MyApp = ({ Component, pageProps }) => (
