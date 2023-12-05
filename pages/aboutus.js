@@ -47,7 +47,7 @@ const aboutus = () => {
       <div className={Style.aboutus_box}>
         <div className={Style.aboutus_box_hero}>
           <div className={Style.aboutus_box_hero_left}>
-            <h1>About Us</h1>
+            <h1>About </h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
               voluptatum, voluptate quae, quia, quod voluptas quibusdam
