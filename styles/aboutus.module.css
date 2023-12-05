@@ -1,14 +1,21 @@
+
+
 .aboutus{
     width: 100%;
     margin-block: 5rem;
+   
 }
+
 .aboutus_box{
-    width: 80%;
-    margin:0 auto;
+    width: 90%;
+    min-width: 80%;
+    margin:  0 27px;
+    
 }
+
 .aboutus_box_hero{
     display: grid;
-    grid-template-columns:1.5fr 2fr;
+    grid-template-columns:1.5fr 1fr;
     align-items: center;
     gap:3rem;
 }
@@ -24,16 +31,20 @@
 
 }
 .aboutus_box_title{
-    
+    min-width: 90%;
     margin-top: 5rem;
 }
 .aboutus_box_title h2{
+    min-width: 90%;
+
     font-size: 3rem;
     line-height: 1;
 
 
 }
 .aboutus_box_title p{
+    min-width: 90%;
+
     font-size: 1.5rem;
     line-height: 1.2;
     width: 40%;
@@ -44,9 +55,12 @@
     margin-bottom: 10rem;
 }
 .aboutus_box_founder_box{
-    display: grid;
+    display: flex;
     grid-template-columns:repeat (4,1fr);
-    gap:2rem;
+    gap:4rem;
+    width: 38%;
+    margin-left: 15px;
+    
 
 }
 .aboutus_box_founder_box_img{
@@ -54,10 +68,11 @@
     color: var(--main-bg-color);
     padding: 1rem;
     border-radius: 1rem;
+   
 
 }
 .aboutus_box_founder_box_img_img{
- 
+   
     border-radius: 1rem;
 }
 .aboutus_box_founder_box_img h3{
@@ -71,7 +86,7 @@
    
 }
 .aboutus_box_facts_box{
-    display: grid;
+    display: flex;
     grid-template-columns:repeat (3,1fr);
     gap:2rem;
     margin-top: 4rem;
@@ -90,10 +105,14 @@
 
 @media screen and (max-width:35em) {
     .aboutus_box{
+
         width: 90%;
     }
     .aboutus_box_founder{
         margin-top: 5rem;
+        width: 100% !important;
+        /* margin-left:8rem ; */
+
 
     }
     .aboutus_box_hero{
@@ -101,16 +120,25 @@
         grid-template-columns:1fr;
        
     }
-    .aboutus_box_founder_box{
-        grid-template-columns:1fr;
 
-        gap: 4rem;
+    .aboutus_box_founder_box{
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 2rem;
+        margin-top: 4rem;
+width: 100% !important;
 
     }
     .aboutus_box_title{
-        width: 100%;    }
+        margin-left:2rem ;
+        min-width: 100%;
+        width: 100% !important;
+
+           }
     .aboutus_box_facts_box
     {
+        margin-left:2rem ;
+width: 100% !important;
         display: grid;
         grid-template-columns:1fr;
         gap: 2rem;
@@ -126,9 +154,11 @@
     @media screen and (min-width:445px) and (max-width:768px) {
         .aboutus_box{
             width: 90%;
+            
         }
         .aboutus_box_founder{
             margin-top: 5rem;
+          
     
         }
         .aboutus_box_hero{
@@ -137,13 +167,21 @@
            
         }
         .aboutus_box_founder_box{
-            grid-template-columns:1fr 1fr;
-    
-            gap: 4rem;
+            display: grid;
+            grid-template-columns:1fr;
+            gap: 2rem;
+            margin-top: 4rem;
+            /* margin-left:8rem ; */
+            
     
         }
         .aboutus_box_title{
+
             width: 100%;    }
+        /* .aboutus_box_title h2{
+            margin-left:9rem ;
+
+        } */
         .aboutus_box_facts_box
         {
             display: grid;
